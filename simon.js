@@ -57,7 +57,7 @@ function fun() {
             btncontainer.removeEventListener("click", clickhandaler);
             document.querySelector("body").style.backgroundColor = "red";
             setTimeout(function(){            
-                document.querySelector("body").style.backgroundColor = "white";
+                document.querySelector("body").style.backgroundColor = "antiquewhite";
             },150);
             
             return;
@@ -96,28 +96,3 @@ function logic() {
         btnflash(yellow);
     }
 }
-
-
-
-
-// function fun() {
-//     setTimeout(function(){
-//         if(userseq.length === seq.length){
-//         for (let i = 0; i <= seq.length; i++) {
-//             if (seq[i] !== userseq[i]) {
-//                 console.log("Game Ended");
-//                 start = false;
-//                 level.innerText="Game Over press any key to restart";
-//                 btncontainer.removeEventListener("click", clickhandaler);
-//                 return;
-//             }else{
-//                 userseq = [];
-//                 level.innerText=`level ${seq.length +1}`;
-//                 setTimeout(logic ,1000);
-
-//             }
-//         }
-//     }
-
-//     },1000)
-// }

@@ -9,6 +9,7 @@ body {
     height: 25vh;
     border: 5px solid black;
     border-radius: 10px;
+    font-display: none;
     margin: 50px 20px 20px 20px;
     color: transparent;
 }
@@ -16,7 +17,6 @@ body {
 .btn-container{
     display: flex;
     justify-content: center;
-
 }   
 
 .red{

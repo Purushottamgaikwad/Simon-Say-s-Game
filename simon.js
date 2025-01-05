@@ -97,27 +97,3 @@ function logic() {
     }
 }
 
-
-
-
-// function fun() {
-//     setTimeout(function(){
-//         if(userseq.length === seq.length){
-//         for (let i = 0; i <= seq.length; i++) {
-//             if (seq[i] !== userseq[i]) {
-//                 console.log("Game Ended");
-//                 start = false;
-//                 level.innerText="Game Over press any key to restart";
-//                 btncontainer.removeEventListener("click", clickhandaler);
-//                 return;
-//             }else{
-//                 userseq = [];
-//                 level.innerText=`level ${seq.length +1}`;
-//                 setTimeout(logic ,1000);
-
-//             }
-//         }
-//     }
-
-//     },1000)
-// }

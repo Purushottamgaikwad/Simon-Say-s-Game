@@ -23,6 +23,7 @@ startbtn.addEventListener("click", function (event) {
     if (start == false) {   
         console.log("game started");
         start = true;
+        startbtn.innerText="Started"
         level.innerText="level 1";
         seq = [];
         userseq = [];
@@ -54,7 +55,8 @@ function fun() {
         if (seq[i] !== userseq[i]) {
             console.log("Game Ended");
             start = false;
-            level.innerText=`your score = ${seq.length -1} \n Game Over press any key to restart`;
+            level.innerText=`your score = ${seq.length -1} \n `;
+            startbtn.innerText=`restart`;
             btncontainer.removeEventListener("click", clickhandaler);
             document.querySelector("body").style.backgroundColor = "red";
             setTimeout(function(){            

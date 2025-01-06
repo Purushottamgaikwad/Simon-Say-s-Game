@@ -3,6 +3,18 @@ body {
     text-align: center;
 }
 
+.startbtn{
+    width: 150px;
+    height: 50px;
+    font-size: 3vw;
+    border-radius: 20px;
+    background-color: rgb(116, 244, 251);
+}
+
+.startbtn:hover{
+    background-color: rgb(60, 243, 215);
+}
+
 .btn{
     /* background-color: red; */
     width: 20vw;

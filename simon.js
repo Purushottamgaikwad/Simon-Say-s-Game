@@ -1,6 +1,7 @@
 let btncontainer = document.querySelector(".btn-container");
 let btn = document.querySelectorAll(".btn");
 
+let startbtn = document.querySelector(".startbtn");
 let red = document.querySelector(".red");
 let yellow = document.querySelector(".yellow");
 let green = document.querySelector(".green");
@@ -18,7 +19,7 @@ function btnflash(btn) {
 }
 
 
-document.addEventListener("keypress", function (event) {
+startbtn.addEventListener("click", function (event) {
     if (start == false) {   
         console.log("game started");
         start = true;
